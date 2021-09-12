@@ -1,7 +1,8 @@
 {
   "name": "util-check-renovate-config",
   "version": "1.0.0",
-  "description": "Check renovate settings for repos",
+  "description": "Check renovate config for repos",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "standard && npm audit",
