@@ -1,3 +1,11 @@
+# IDE
+.idea
+.vs
+.vscode
+
+# OS X
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -102,3 +110,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Repos data file
+data/repos.json

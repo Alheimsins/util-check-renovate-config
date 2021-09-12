@@ -1,0 +1,39 @@
+{
+  "name": "util-check-renovate-config",
+  "version": "1.0.0",
+  "description": "Check renovate settings for repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm audit",
+    "start": "node index.js",
+    "save-repos": "node lib/save-repos.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "standard:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alheimsins/util-check-renovate-config.git"
+  },
+  "keywords": [
+    "utility",
+    "renovate"
+  ],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alheimsins/util-check-renovate-config/issues"
+  },
+  "homepage": "https://github.com/alheimsins/util-check-renovate-config#readme",
+  "dependencies": {
+    "axios": "0.21.4",
+    "clipboardy": "2.3.0",
+    "dotenv": "10.0.0",
+    "open": "8.2.1"
+  },
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">= 14.17.6"
+  }
+}
