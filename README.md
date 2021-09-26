@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/alheimsins/util-check-renovate-config.svg?branch=main)](https://travis-ci.com/alheimsins/util-check-renovate-config)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # util-check-renovate-config
