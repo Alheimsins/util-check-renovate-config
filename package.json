@@ -28,7 +28,7 @@
   "dependencies": {
     "axios": "0.25.0",
     "clipboardy": "2.3.0",
-    "dotenv": "14.2.0",
+    "dotenv": "14.3.2",
     "open": "8.4.0"
   },
   "devDependencies": {
